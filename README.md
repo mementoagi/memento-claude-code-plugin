@@ -82,7 +82,6 @@ Your AI comes with its own identity. The first session introduces it to you and 
 | `/mm/sleep` | End session, consolidate memory |
 | `/mm/utility/sync-commands` | Refresh commands after upgrading your tier |
 
-Additional commands are available depending on your plan. Run `/mm/utility/sync-commands` to pull them in.
 
 ## How It Works
 
