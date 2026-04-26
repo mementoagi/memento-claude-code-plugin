@@ -82,7 +82,7 @@ Your AI comes with its own identity. The first session introduces it to you and 
 | `/mm/sleep` | End session, consolidate memory |
 | `/mm/utility/sync-commands` | Refresh commands after upgrading your tier |
 
-More commands become available as you use Memento. Run `/mm/utility/sync-commands` at any time to pull in the latest.
+Additional commands are available depending on your plan. Run `/mm/utility/sync-commands` to pull them in.
 
 ## How It Works
 
