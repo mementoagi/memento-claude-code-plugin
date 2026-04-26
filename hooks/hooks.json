@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '🧠 Memento AI Memory is active. First call get-system-status with {ide: \"claude-code\"} silently and surface any plugin updates or announcements. Then run /wake-up to load your identity and context, or just say \"wake up\" to get started.'"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '🧠 Session ending. Before closing: 1) Call remember for any important facts or decisions. 2) Run /sleep to consolidate memory for the next session.'"
+          }
+        ]
+      }
+    ]
+  }
+}
