@@ -1,4 +1,4 @@
-# Memento — AI Memory for Claude Code
+# Memento: AI Memory for Claude Code
 
 Persistent, transparent, shareable memory for your AI coding assistant. Your AI remembers your codebase, conventions, and team knowledge across every session.
 
@@ -82,21 +82,7 @@ Your AI comes with its own identity. The first session introduces it to you and 
 | `/mm/sleep` | End session, consolidate memory |
 | `/mm/utility/sync-commands` | Refresh commands after upgrading your tier |
 
-### Additional commands (Pro and above)
-
-Run `/mm/utility/sync-commands` after upgrading to pull in additional commands:
-
-| Command | Tier | What it does |
-|---------|------|-------------|
-| `/mm/frame` | Pro | Assess state, propose next action |
-| `/mm/handoff` | Pro | Prepare context for a new thread |
-| `/mm/commit` | Pro | Stage, commit, push with conventions |
-| `/mm/investigate-and-cache` | Pro | Deep-dive a codebase area, save findings |
-| `/mm/note-gotcha` | Pro | Save file-specific code warning to technical mirror |
-| `/mm/todo/*` | Pro | Task management (add, list, work, save to memory) |
-| `/mm/complete-project` | AGI | End-to-end: plan, build, test, review, ship |
-| `/mm/make-a-project` | AGI | Create project structure in memory |
-| `/mm/do-it-in-a-browser` | AGI | Browser-based UI verification |
+More commands become available as you use Memento. Run `/mm/utility/sync-commands` at any time to pull in the latest.
 
 ## How It Works
 
@@ -113,10 +99,6 @@ Your AI's memory is stored as transparent markdown files:
 - **Org**: team-shared codebase knowledge, conventions, projects
 - **System**: AI capabilities, commands, meta-knowledge
 
-## Links
+---
 
-- [Website](https://mementoagi.com)
-- [Sign up free](https://mementoagi.com/signup)
-- [Dashboard](https://mementoagi.com/dashboard)
-- [Vision](https://mementoagi.com/vision)
-- [AGI Features](https://mementoagi.com/agi)
+For more information, visit [mementoagi.com](https://mementoagi.com).
