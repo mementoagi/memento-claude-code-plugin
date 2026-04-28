@@ -56,7 +56,17 @@ Sign up at [mementoagi.com](https://mementoagi.com/signup).
 
 ### 2. Install the plugin
 
+From inside a Claude Code session:
+
+```
+/plugin marketplace add mementoagi/memento-claude-code-plugin
+/plugin install memento@memento-plugins
+```
+
+Or from the terminal:
+
 ```bash
+claude plugin marketplace add mementoagi/memento-claude-code-plugin
 claude plugin install memento@memento-plugins
 ```
 

@@ -1,0 +1,30 @@
+{
+  "name": "memento-plugins",
+  "description": "Memento's official marketplace for Claude Code — persistent AI memory that remembers your codebase, conventions, and team knowledge across every session.",
+  "owner": {
+    "name": "Memento",
+    "email": "hello@mementoagi.com",
+    "url": "https://mementoagi.com"
+  },
+  "plugins": [
+    {
+      "name": "memento",
+      "description": "Persistent AI memory for Claude Code. Your AI remembers your codebase, conventions, and team knowledge across every session.",
+      "source": "./",
+      "category": "ai-memory",
+      "tags": [
+        "ai-memory",
+        "persistent-context",
+        "mcp",
+        "coding-assistant",
+        "developer-tools",
+        "team-memory",
+        "knowledge-management",
+        "autonomous-coding"
+      ],
+      "homepage": "https://mementoagi.com",
+      "repository": "https://github.com/mementoagi/memento-claude-code-plugin",
+      "license": "MIT"
+    }
+  ]
+}
