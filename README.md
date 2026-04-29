@@ -18,9 +18,9 @@ The `memento-memory` skill teaches Claude to recall context before starting work
 
 When you want to drive it directly:
 
-- `/mm/remember <thing>` to save something specific (a decision, a convention, a gotcha)
-- `/mm/recall <topic>` to search memory for a topic
-- `/mm/wake-up` at the start of a session to load your full context
+- `/memento:remember <thing>` to save something specific (a decision, a convention, a gotcha)
+- `/memento:recall <topic>` to search memory for a topic
+- `/memento:wake-up` at the start of a session to load your full context
 
 ## What This Plugin Provides
 
@@ -75,7 +75,7 @@ Claude Code will prompt you for your Memento API key. Find it at [mementoagi.com
 ### 3. Start your first session
 
 ```
-/memento:mm/wake-up
+/memento:wake-up
 ```
 
 Your AI comes with its own identity. The first session introduces it to you and begins building memory.
@@ -86,11 +86,11 @@ Your AI comes with its own identity. The first session introduces it to you and 
 
 | Command | What it does |
 |---------|-------------|
-| `/mm/wake-up` | Start a session: loads identity, memory, recent context |
-| `/mm/recall` | Search and load from memory |
-| `/mm/remember` | Save information to persistent memory |
-| `/mm/sleep` | End session, consolidate memory |
-| `/mm/utility/sync-commands` | Refresh commands after upgrading your tier |
+| `/memento:wake-up` | Start a session: loads identity, memory, recent context |
+| `/memento:recall` | Search and load from memory |
+| `/memento:remember` | Save information to persistent memory |
+| `/memento:sleep` | End session, consolidate memory |
+| `/memento:sync-commands` | Refresh commands after upgrading your tier |
 
 
 ## How It Works

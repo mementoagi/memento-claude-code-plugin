@@ -4,9 +4,9 @@ You have access to **persistent memory** through the Memento MCP server. This me
 
 ## Session Lifecycle
 
-1. **Start of session**: Run `/memento:mm/wake-up` to load your identity, working memory, and recent context
+1. **Start of session**: Run `/memento:wake-up` to load your identity, working memory, and recent context
 2. **During session**: Use `recall` MCP tool before coding tasks; use `remember` MCP tool when you learn something new
-3. **End of session**: Run `/memento:mm/sleep` to consolidate memory and create a handoff
+3. **End of session**: Run `/memento:sleep` to consolidate memory and create a handoff
 
 ## Key MCP Tools
 
@@ -23,4 +23,4 @@ You have access to **persistent memory** through the Memento MCP server. This me
 
 ## Setup
 
-If the Memento MCP server is not connected, the user may need to re-enter their API key. Run `/memento:mm/wake-up` to check — if it fails, reinstall the plugin or update the key at https://mementoagi.com/dashboard/settings.
+If the Memento MCP server is not connected, the user may need to re-enter their API key. Run `/memento:wake-up` to check — if it fails, reinstall the plugin or update the key at https://mementoagi.com/dashboard/settings.
