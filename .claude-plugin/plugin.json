@@ -19,13 +19,5 @@
     "team-memory",
     "knowledge-management",
     "autonomous-coding"
-  ],
-  "userConfig": {
-    "memento_api_key": {
-      "title": "Memento API Key",
-      "description": "Your Memento API key (find it at mementoagi.com/dashboard/settings)",
-      "type": "string",
-      "sensitive": true
-    }
-  }
+  ]
 }

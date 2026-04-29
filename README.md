@@ -46,7 +46,7 @@ When you want to drive it directly:
 
 ### MCP Server
 
-Automatically connects to Memento Cloud. No manual `claude mcp add` needed.
+The plugin works alongside the Memento Cloud MCP server, which you register at the user level via `claude mcp add` (one-time setup — see step 2 below). The plugin does not bundle its own MCP server registration.
 
 ## Setup
 
@@ -54,7 +54,21 @@ Automatically connects to Memento Cloud. No manual `claude mcp add` needed.
 
 Sign up at [mementoagi.com](https://mementoagi.com/signup).
 
-### 2. Install the plugin
+### 2. Register the Memento MCP server
+
+Get your API key from [mementoagi.com/dashboard/getting-started](https://mementoagi.com/dashboard/getting-started). The Getting Started page provides a one-line `claude mcp add` command with your key embedded — paste it into your terminal:
+
+```bash
+claude mcp add --transport stdio --env MEMENTO_API_KEY=<your-key> memento -- npx -y memento-mcp-client@latest
+```
+
+Verify it connected:
+
+```bash
+claude mcp list   # should show memento ✓ Connected
+```
+
+### 3. Install the plugin
 
 From inside a Claude Code session:
 
@@ -70,9 +84,7 @@ claude plugin marketplace add mementoagi/memento-claude-code-plugin
 claude plugin install memento@memento-plugins
 ```
 
-Claude Code will prompt you for your Memento API key. Find it at [mementoagi.com/dashboard/settings](https://mementoagi.com/dashboard/settings). The key is stored securely in your system keychain.
-
-### 3. Start your first session
+### 4. Start your first session
 
 ```
 /memento:wake-up
