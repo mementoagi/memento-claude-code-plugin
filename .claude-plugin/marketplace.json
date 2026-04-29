@@ -1,6 +1,6 @@
 {
   "name": "memento-plugins",
-  "description": "Memento's official marketplace for Claude Code — persistent AI memory plus tier-specific extras (AGI, Beta).",
+  "description": "Memento's official marketplace for Claude Code — persistent AI memory for coding assistants.",
   "owner": {
     "name": "Memento",
     "email": "hello@mementoagi.com",
@@ -21,39 +21,6 @@
         "team-memory",
         "knowledge-management",
         "autonomous-coding"
-      ],
-      "homepage": "https://mementoagi.com",
-      "repository": "https://github.com/mementoagi/memento-claude-code-plugin",
-      "license": "MIT"
-    },
-    {
-      "name": "memento-agi",
-      "description": "AGI-tier commands for Memento — autonomous project execution, voice-driven coding, AI code review, tracing. Requires the Memento AGI plan and the base `memento` plugin.",
-      "source": "./plugins/memento-agi",
-      "category": "ai-memory",
-      "tags": [
-        "ai-memory",
-        "agi",
-        "autonomous-coding",
-        "ai-code-review",
-        "tracing",
-        "voice-coding"
-      ],
-      "homepage": "https://mementoagi.com",
-      "repository": "https://github.com/mementoagi/memento-claude-code-plugin",
-      "license": "MIT"
-    },
-    {
-      "name": "memento-beta",
-      "description": "Beta-tier and admin commands for Memento — patrols, voice-diff review, snapshot tooling, command authoring. Requires the Memento Beta plan and the base `memento` plugin.",
-      "source": "./plugins/memento-beta",
-      "category": "ai-memory",
-      "tags": [
-        "ai-memory",
-        "beta",
-        "admin",
-        "command-authoring",
-        "voice-coding"
       ],
       "homepage": "https://mementoagi.com",
       "repository": "https://github.com/mementoagi/memento-claude-code-plugin",
